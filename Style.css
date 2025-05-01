@@ -151,10 +151,10 @@ img.rsvp-button:hover {
 @media only screen and (max-width: 600px) {
     .overlay-text {
         top: 10% !important; /* move it up to 5% of banner height */
-        top:50px;
+        
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
-        font-size: 3vw !important; /* scales with screen width */
+        font-size: 2vw !important; /* scales with screen width */
         
     }
 }
