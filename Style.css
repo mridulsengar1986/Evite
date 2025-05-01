@@ -162,7 +162,7 @@ img.rsvp-button:hover {
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5em;       /* smaller text */
-    margin-top: 40px;       /* lift up */
+    margin-top: 50px;       /* lift up */
   }
 }
 
