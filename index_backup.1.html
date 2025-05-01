@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Evite</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="evite-card">
+        <div class="img_banner1">
+            <div class="overlay-text">
+                <h3>GET READY FOR PIZZA & GAMES, BECAUSE...</h3>
+                <h1> SHAVI IS TURNING 4 </h1>
+                <h3>SATURDAY, JUNE 7, AT 3PM TO 5PM</h3>
+
+            </div>
+        </div>
+
+        <div class="img_banner2">
+            <div class="overlay-text">
+                <h3>
+                    Address: CHUCK E. CHEES
+                    9404 MAIN ST. FAIRFAX, VA
+                    22031
+                </h3>
+                <img class="rsvp-button" src="img/rsvp4.png" alt="RSVP Now"
+                     style="width: 90px; cursor: pointer;"
+                     onclick="document.getElementById('rsvpForm').style.display='block'" />
+            </div>
+        </div>
+    </div>
+    <!--RSVP form only display when someone click on RSVP button-->
+    <div id="rsvpForm" style="display: none; background: #B0E0E6; padding: 20px; border-radius: 10px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.2); position: fixed; top: 20%; left: 50%;
+       transform: translateX(-50%); z-index: 999; color: black; text-align: center;
+    font-family: 'Luckiest Guy', cursive;">
+
+        <h3>RSVP for Shavi's Birthday</h3>
+        <input type="text" id="name" placeholder="Your Name" /><br /><br />
+        <input type="number" id="guests" placeholder="Number of Guests" /><br /><br />
+        <button id="submitRSVP" type="submit">Submit RSVP</button>
+        <button onclick="document.getElementById('rsvpForm').style.display='none'">Close</button>
+        <div id="rsvpMessage" style="margin-top: 10px; color: green;"></div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
