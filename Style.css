@@ -150,12 +150,12 @@ img.rsvp-button:hover {
 /* Mobile-only tweak: shift overlay up on phones */
 @media only screen and (max-width: 600px) {
     .overlay-text {
-/*         top: 5% !important; /* move it up to 5% of banner height */ */
+        top: 10% !important; /* move it up to 5% of banner height */
         top:50px;
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
-/*         font-size: 4vw !important; /* scales with screen width */ */
-        font-size:0.9em
+        font-size: 3vw !important; /* scales with screen width */
+        
     }
 }
 
