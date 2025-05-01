@@ -154,12 +154,10 @@ img.rsvp-button:hover {
         
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
-        font-size: 2vw !important; /* scales with screen width */
+        font-size: 1vw !important; /* scales with screen width */
         
     }
-    h1 {
-    font-size: 1.5em; /* or use px like 20px */
-  }
+   
 }
 
 
