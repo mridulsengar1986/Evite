@@ -154,7 +154,7 @@ img.rsvp-button:hover {
         
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
-        font-size: 3vw !important; /* scales with screen width */
+        font-size: 2vw !important; /* scales with screen width */
         
     }
 }
