@@ -47,7 +47,7 @@ Message:`;
         const raw = Array.isArray(hfJson)
             ? hfJson[0]?.generated_text
             : hfJson.generated_text;
-        let reply = raw?.trim() || "Thanks for not RSVPing!";
+        let reply = raw?.trim() || "Thanks for  RSVPing!";
 
         // 3) Safety net: if the model still didn’t include the name, prepend it
         if (!reply.startsWith(guestName)) {
