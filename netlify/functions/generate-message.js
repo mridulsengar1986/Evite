@@ -1,11 +1,12 @@
-// Right at the top of your handler, log it so you can see it in your deploy logs:
-console.log("HF_TOKEN is:", process.env.HF_TOKEN ? "✅ set" : "⛔️ MISSING");
+
 ﻿
 
     // NEW: a more detailed, humor-focused prompt
     const fetch = require("node-fetch");
 
     exports.handler = async (event) => {
+        // Right at the top of your handler, log it so you can see it in your deploy logs:
+console.log("HF_TOKEN is:", process.env.HF_TOKEN ? "✅ set" : "⛔️ MISSING");
         const { guestName } = JSON.parse(event.body);
         const token = process.env.HF_TOKEN;
 
