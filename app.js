@@ -43,7 +43,7 @@ submitBtn.addEventListener("click", async() => {
 
 
         const data = await response.json();
-        console.log('AI response:',data);  // Always check what comes back
+        console.log('AI response from server:',data);  // Always check what comes back
         const thankYouMessage = `🎉 ${data.reply}`;
         messageBox.textContent = thankYouMessage;
         nameInput.value = "";
