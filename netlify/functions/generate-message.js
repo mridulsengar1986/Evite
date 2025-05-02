@@ -24,7 +24,7 @@ Message:`;
         console.log("PROMPT ▶️", prompt);
         // 2) Use max_new_tokens (not max_length) and strip the prompt
         const hfRes = await fetch(
-            "https://api-inference.huggingface.co/models/google/flan-t5-base",
+            "https://api-inference.huggingface.co/models/google/flan-t5-large",
             {
                 method: "POST",
                 headers: {
