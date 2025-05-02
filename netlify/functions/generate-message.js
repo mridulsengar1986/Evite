@@ -42,8 +42,9 @@ Message:`;
                 })
             }
         );
-        console.log("hfRes▶️", JSON.stringify(hfRes));
+        
         const hfJson = await hfRes.json();
+        console.log("HF JSON ▶️", JSON.stringify(hfJson, null, 2));
         const raw = Array.isArray(hfJson)
             ? hfJson[0]?.generated_text
             : hfJson.generated_text;
