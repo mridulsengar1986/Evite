@@ -135,7 +135,13 @@ img.rsvp-button:hover {
     margin: 0 auto 1rem;
     margin-top: 80px;
 }
-
+.rsvp-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;  /* pull it up */
+  margin-bottom: 30px;
+}
  /* ─── Mobile banner & text tweak ─── */
 
 @media (max-width: 600px) {
@@ -157,12 +163,23 @@ img.rsvp-button:hover {
         font-size: 3vw !important; /* scales with screen width */
         
     }
+      .rsvp-wrapper {
+    margin-top: 10px;
+  }
+
+  .rsvp-button {
+    width: 60vw;
+    max-width: 220px;
+    animation: bounce 2s infinite;
+  }
    
 }
 
 
 
 
+
+
     
         
- */
+ 
