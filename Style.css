@@ -351,7 +351,7 @@ img.rsvp-button:hover {
 }
 @media (max-width: 600px) {
  .overlay-text {
-        top: 25px !important; /* move it up to 5% of banner height */
+        top: 50px !important; /* move it up to 5% of banner height */
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
         font-size: 3vw !important; /* scales with screen width */
