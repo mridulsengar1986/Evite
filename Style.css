@@ -144,7 +144,7 @@ font-size: 1vw !important; /* scales with screen width */
   .overlay-text {
     top: 10px; /* Shift up to avoid image overlap */
     width: 90%; /* Slightly wider */
-    font-size: 1vw; /* Ensures readable size on all phones */
+ font-size: clamp(16px, 4vw, 20px) /* Ensures readable size on all phones */
   }
 }
 
