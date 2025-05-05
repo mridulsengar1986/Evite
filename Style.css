@@ -17,9 +17,6 @@ body {
     flex-direction: column;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-
-
-
 .img_banner1 {
     background-image: url('./img/bg2.png');
     background-size: cover;
@@ -46,7 +43,6 @@ body {
 
 .overlay-text {
     position: absolute;
-    /*top: 75px;*/ /* Move down to the start of white box */
     top:40px;
     left: 50%;
     transform: translateX(-50%);
@@ -74,10 +70,10 @@ body {
     text-align: center;
 }
 
-img.rsvp-button:hover {
+/* img.rsvp-button:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease;
-}
+} */
 
 .rsvp-button {
     display: inline-flex;
@@ -100,10 +96,10 @@ img.rsvp-button:hover {
 
 
 
-/*    .rsvp-button img {
+   .rsvp-button img {
         width: 24px;
         margin-right: 8px;
-    }*/
+    }
 /*
     .rsvp-btn:hover {
         transform: scale(1.05);
