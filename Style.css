@@ -152,6 +152,8 @@ img.rsvp-button:hover {
         overflow: visible !important; /* don’t crop the banners */
         margin: 10px auto;
     }
+}
+@media (max-width: 600px) {
  .overlay-text {
         top: 20px !important; /* move it up to 5% of banner height */
         transform: translateX(-50%);
@@ -163,11 +165,11 @@ img.rsvp-button:hover {
     margin-top: 100px;
   }
 
-/*   .rsvp-button {
+  .rsvp-button {
     width: 60vw;
     max-width: 220px;
     animation: bounce 2s infinite;
-  } */
+  }
    
 }
 
