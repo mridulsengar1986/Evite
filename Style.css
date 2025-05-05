@@ -143,12 +143,12 @@ body {
         font-size: 0.9vm !important; /* scales with screen width */
     }
 
-}
-
 .rsvp-wrapper {
     justify-content: center;
     align-items: center; */
 }
+}
+
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
