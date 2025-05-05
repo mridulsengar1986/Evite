@@ -14,7 +14,7 @@ body {
     height:600px;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+/*     flex-direction: column; */
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .img_banner1 {
