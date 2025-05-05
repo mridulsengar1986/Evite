@@ -128,7 +128,7 @@ body {
     }
 }
 /* Mobile-only tweak: shift overlay up on phones */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .overlay-text {
      top: 50px; /* move it up to 5% of banner height */  
      transform: translateX(-50%);
@@ -139,7 +139,15 @@ font-size: 1vw !important; /* scales with screen width */
     }
 
 
+} */
+@media only screen and (max-width: 600px) {
+  .overlay-text {
+    top: 10px; /* Shift up to avoid image overlap */
+    width: 90%; /* Slightly wider */
+    font-size: clamp(16px, 4vw, 20px); /* Ensures readable size on all phones */
+  }
 }
+
 
 @keyframes bounce {
     0%, 100% {
