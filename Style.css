@@ -51,8 +51,8 @@ body {
     text-align: center;
     
   -webkit-text-stroke: 0.2px #1A237E;    /* down from 0.5px */
-  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4); /* softer, smaller shadow */
-
+/*   text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4); /* softer, smaller shadow */
+ */
 
 /*     -webkit-text-stroke: 0.5px #1A237E;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6); */
