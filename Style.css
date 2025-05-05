@@ -95,10 +95,7 @@ body {
         width: 24px;
         margin-right: 8px;
     }
-/*
-    .rsvp-btn:hover {
-        transform: scale(1.05);
-    }*/
+
 
 #thankYouMessage {
     margin-top: 20px;
@@ -145,17 +142,10 @@ body {
         width: 90%; /* give it a bit more room */
         font-size: 0.9vm !important; /* scales with screen width */
     }
-/*     .rsvp-button {
-        width: 70vw;
-        max-width: 240px;
-        margin: 20px auto;
-        display: block;
-    } */
+
 }
 
 .rsvp-wrapper {
-/*       margin-top:20px; */
-/*     display: flex;
     justify-content: center;
     align-items: center; */
 }
