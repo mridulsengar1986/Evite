@@ -44,7 +44,7 @@ body {
     top:40px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%; /* Not too wide */
+    width: 50%; /* Not too wide */
     color: #FFD700;
     font-family: 'Luckiest Guy', cursive;
     font-size: 1.0em;
@@ -147,12 +147,21 @@ font-size: 1vw !important; /* scales with screen width */
 } */
 @media only screen and (max-width: 600px) {
   .overlay-text {
+    top: 10px;                /* your shift-up */
+    width: 90%;
+    font-size: 0.875rem;      /* 14px if root is 16px; you can go down to 0.8125rem (13px) */
+    line-height: 1.1;         /* tighten a bit if needed */
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  .overlay-text {
     top: 10px; /* Shift up to avoid image overlap */
     width: 90%; /* Slightly wider */
  font-size: 14px; /* Ensures readable size on all phones */
   }
 }
-
+ */
 
 @keyframes bounce {
     0%, 100% {
