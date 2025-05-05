@@ -86,7 +86,7 @@ img.rsvp-button:hover {
     transition: transform 0.2s ease;
 }
 
-.rsvp-btn {
+.rsvp-button {
     display: inline-flex;
     align-items: center;
     background: #FFD700; /* Paw Patrol yellow */
@@ -101,12 +101,12 @@ img.rsvp-button:hover {
     transition: transform 0.2s;
 }
 
-    .rsvp-btn img {
+    .rsvp-button img {
         width: 24px;
         margin-right: 8px;
     }
 
-    .rsvp-btn:hover {
+    .rsvp-button:hover {
         transform: scale(1.05);
     }
 
