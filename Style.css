@@ -159,7 +159,7 @@ img.rsvp-button:hover {
 /* Mobile-only tweak: shift overlay up on phones */
 @media only screen and (max-width: 600px) {
     .overlay-text {
-        top: 20px !important; /* move it up to 5% of banner height */
+/*         top: 20px !important; /* move it up to 5% of banner height */ */
       
         transform: translateX(-50%);
         width: 90%; /* give it a bit more room */
