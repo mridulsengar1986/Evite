@@ -44,7 +44,7 @@ submitBtn.addEventListener("click", async() => {
 
         const data = await response.json();
         console.log('AI response from server:',data);  // Always check what comes back
-        const thankYouMessage = `🎉 ${data.reply}`;
+        const thankYouMessage = `🎉 ${data.reply}|| Thank You ${guestName} for RSVPing`;
         messageBox.textContent = thankYouMessage;
         nameInput.value = "";
         guestNumber.value = "";
@@ -52,12 +52,12 @@ submitBtn.addEventListener("click", async() => {
         setTimeout(() => {
             messageBox.textContent = "";
             document.getElementById('rsvpForm').style.display = 'none';
-        }, 5000);
+        }, 3000);
 
     })
     .catch((error) => {
         console.error("❌ Firebase Error:", error);
-        alert("There was an error saving your RSVP. Please try again.");
+        // alert("There was an error saving your RSVP. Please try again.");
     });
 });
  
