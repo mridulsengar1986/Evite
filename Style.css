@@ -144,10 +144,11 @@ body {
   .overlay-text {
     top: 40px;       /* we’ll adjust this in Step 2 */
     width: 90%;
-    font-size: 2.5vw;/* scales with screen width */
-  /* remove the heavy outline/shadow for a thinner look */
+/*     font-size: 2.5vw;/* scales with screen width */ 
     -webkit-text-stroke: 0px;
     text-shadow: none;
+      
+    font-weight: 300;
   }
 }
  /* Subtitle (“GET READY…”) slightly bigger */
