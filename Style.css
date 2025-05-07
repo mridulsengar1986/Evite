@@ -19,7 +19,20 @@ body {
     object-fit: cover;
     z-index: -2;
 }
+.background-video {
+  position: fixed;  /* cover the viewport */
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;       /* sit above the page, but below your card */
+}
+
+
+
 .evite-card {
+    position: relative; /* create a new stacking context */
+     z-index: 1; 
     margin-top:120px;
     border-radius:20px;
     width:450px;
