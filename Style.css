@@ -25,7 +25,7 @@ body {
 
 /* ── Card positioning ── */
 .evite-card {
-  margin-top: 150px;  /* pushes it down */
+  margin-top: 120px;  /* pushes it down */
   border-radius: 20px;
   width: 450px;
   height: 600px;
