@@ -137,7 +137,10 @@ body {
     max-width: 450px;
     height: auto !important;
     overflow: visible !important;
-    margin: 60px 40px auto;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
   }
 
   /* 2) Position & size the overlay text */
