@@ -138,9 +138,9 @@ body {
     height: auto !important;
     overflow: visible !important;
   margin-top: 120px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
   }
 
   /* 2) Position & size the overlay text */
