@@ -178,10 +178,3 @@ font-size: 1vw !important; /* scales with screen width */
     }
 }
 
-@media (max-width: 600px) {
-  .background-video {
-    object-fit: contain;           /* show full frame */
-    object-position: center center;
-    background: black;             /* bars will be black */
-  }
-}
