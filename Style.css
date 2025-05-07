@@ -161,7 +161,7 @@ font-size: 1vw !important; /* scales with screen width */
 
 @media only screen and (max-width: 600px) {
   .overlay-text {
-    top: 10px; /* Shift up to avoid image overlap */
+    top: -10px; /* Shift up to avoid image overlap */
 /*     width: 90%; /* Slightly wider */ */
  font-size: 1 vw; /* Ensures readable size on all phones */
   }
