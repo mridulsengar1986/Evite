@@ -171,17 +171,11 @@ font-size: 1vw !important; /* scales with screen width */
         transform: translateY(-15px);
     }
 }
-.background-video {
-  position: fixed;      /* fill the viewport */
-  top: 0;
-  left: 0;
-  width: 100vw;         /* full width */
-  height: 100vh;        /* full height */
-  
-  /* cover & crop so it never distorts */
-  object-fit: cover;
-  object-position: center center;
-  
-  z-index: -1;          /* sit behind your content */
-}
 
+@media (max-width: 600px) {
+  .background-video {
+    object-fit: contain;           /* show full frame */
+    object-position: center center;
+    background: black;             /* bars will be black */
+  }
+}
