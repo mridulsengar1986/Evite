@@ -8,6 +8,15 @@ body {
     font-family: 'Luckiest Guy', cursive;
     background: linear-gradient(to bottom, #cceeff, #fff3b0);
 }
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
 .evite-card {
     border-radius: 20px;
     width:450px;
