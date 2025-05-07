@@ -25,7 +25,7 @@ body {
 
 /* ── Card positioning ── */
 .evite-card {
-  margin-top: 120px;  /* pushes it down */
+  margin-top: 150px;  /* pushes it down */
   border-radius: 20px;
   width: 450px;
   height: 600px;
@@ -134,8 +134,8 @@ body {
   50%      { transform: translateY(-15px); }
 }
 
-/* ── Mobile tweaks ── */
-@media (max-width: 600px) {
+/* ── Mobile tweaks ── 600px*/
+@media (max-width: 480px) {
   .evite-card {
     width: 90vw;
     max-width: 450px;
@@ -147,7 +147,11 @@ body {
   .overlay-text {
     top: 10px;
     width: 90%;
-    font-size: 14px;
+    font-size: 16px;
+    line-height:1.4;
+    background:rgba(255,255,255,0.7);
+    padding:8px;
+    border-radius:10px;
   }
 }
 
