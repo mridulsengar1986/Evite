@@ -134,47 +134,24 @@ body {
     margin: 0 auto 1rem;
     margin-top: 80px;
 }
- /* ─── Mobile banner & text tweak ─── */
+
 
 @media (max-width: 600px) {
-    .evite-card {
-        width: 90vw; /* almost full screen */
-        max-width: 450px; /* don’t get bigger than your desktop size */
-        height: auto !important; /* expand to fit its content */
-        overflow: visible !important; /* don’t crop the banners */
-        margin: 10px auto;
-    }
-}
-/* Mobile-only tweak: shift overlay up on phones */
-/* @media only screen and (max-width: 600px) {
-    .overlay-text {
-     top: 50px; /* move it up to 5% of banner height */  
-     transform: translateX(-50%);
-        width: 90%; /* give it a bit more room */
-font-size: 1vw !important; /* scales with screen width */
-       
+  /* 1) Resize the card */
+  .evite-card {
+    width: 90vw;
+    max-width: 450px;
+    height: auto !important;
+    overflow: visible !important;
+    margin: 10px auto;
+  }
 
-    }
-
-
-} */
-
-@media only screen and (max-width: 600px) {
+  /* 2) Position & size the overlay text */
   .overlay-text {
-    top: 1px; /* Shift up to avoid image overlap */
-/*     width: 90%; /* Slightly wider */ */
- font-size: 1 vw; /* Ensures readable size on all phones */
+    top: 60px;       /* we’ll adjust this in Step 2 */
+    width: 90%;
+    font-size: 2.5vw;/* scales with screen width */
   }
 }
 
-
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-15px);
-    }
-}
 
