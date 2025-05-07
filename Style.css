@@ -19,14 +19,7 @@ body {
     object-fit: cover;
     z-index: -2;
 }
-.background-video {
-  position: fixed;  /* cover the viewport */
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  object-fit: cover;
-  object-position: center;
-  z-index: 0;       /* sit above the page, but below your card */
-}
+
 
 
 
