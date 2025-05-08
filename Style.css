@@ -137,7 +137,7 @@ body {
 
   /* 2) Position & size the overlay text */
   .overlay-text {
-    top: 30px;       /* we’ll adjust this in Step 2 */
+    top: 20px;       /* we’ll adjust this in Step 2 */
     width: 90%;
    font-size:10px; /* scales with screen width  */
   } 
