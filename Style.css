@@ -54,7 +54,7 @@ body {
 }
 .overlay-text {
     position: absolute;
-    top:40px;
+    top:30px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%; /* Not too wide */
