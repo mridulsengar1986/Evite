@@ -70,7 +70,7 @@ body {
         top: -10px; /* pull up by 8px; adjust to taste */
     }
 .img_banner2 {
-    background-image: url('./img/banner2.webp');
+    background-image: url('./img/banner.webp');
     background-size: cover;
     background-position: center;
     position: relative;
