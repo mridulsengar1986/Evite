@@ -52,7 +52,7 @@ submitBtn.addEventListener("click", async() => {
         setTimeout(() => {
             messageBox.textContent = "";
             document.getElementById('rsvpForm').style.display = 'none';
-        }, 5000);
+        }, 7000);
 
     })
     .catch((error) => {
