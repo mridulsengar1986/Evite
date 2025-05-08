@@ -53,6 +53,7 @@ body {
     width: 100%;
 }
 .overlay-text {
+    padding-top:20px;
     position: absolute;
     top:30px;
     left: 50%;
