@@ -18,6 +18,11 @@ body {
     z-index: 0;
 }
 .evite-card {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.evite-card {
     position: relative; /* create a new stacking context */
      z-index: 1; 
     margin-top:120px;
