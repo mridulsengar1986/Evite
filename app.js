@@ -44,7 +44,7 @@ submitBtn.addEventListener("click", async() => {
 
         const data = await response.json();
         console.log('AI response from server:',data);  // Always check what comes back
-        const thankYouMessage = `🎉 ${data.reply || `Thank you, ${guestName}, for joing the fun! We're so glad you will be joining us-the celebration wouldn't be the same withoutyou.`}`;
+        const thankYouMessage = `🎉 ${data.reply || `Thank you, ${guestName}, for RSVP! Can't wait to celebrate with you!.`}`;
         messageBox.textContent = thankYouMessage;
         nameInput.value = "";
         guestNumber.value = "";
