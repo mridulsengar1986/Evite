@@ -71,9 +71,7 @@ body {
         position: relative;
         top: -10px; /* pull up by 8px; adjust to taste */
     }
-.test{
-    padding:12px;
-}
+
 .img_banner2 {
     background-image: url('./img/banner.webp');
     background-size: cover;
