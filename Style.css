@@ -60,7 +60,7 @@ body {
     transform: translateX(-50%);
     width: 80%; /* Not too wide */
     color: #FFD800;
-    font-family: 'Luckiest Guy', cursive;
+/*     font-family: 'Luckiest Guy', cursive; */
     font-size: 1.0em;
     text-align: center;
     -webkit-text-stroke: 0.5px #1A237E;
