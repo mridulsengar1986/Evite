@@ -73,7 +73,7 @@ body {
     }
 .overlay-text1 {
   position: relative;
-  background: rgba(255,255,255,0.2);
+/*   background: rgba(255,255,255,0.2); */
   padding: 8px 12px;
   border-radius: 6px;
 
