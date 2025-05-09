@@ -72,7 +72,7 @@ body {
         top: -10px; /* pull up by 8px; adjust to taste */
     }
 .test{
-    padding-top:12px;
+    padding:12px;
 }
 .img_banner2 {
     background-image: url('./img/banner.webp');
