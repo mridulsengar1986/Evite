@@ -22,10 +22,14 @@ submitBtn.addEventListener("click", async() => {
     const messageBox = document.getElementById("rsvpMessage");
     const guestName = nameInput.value.trim();
     const guestsCount = guestNumber.value;
-   if (!guestName) {
-       alert( "Please enter your name!");
-        return;
-    }                      
+   // if (!guestName) {
+   //     alert( "Please enter your name!");
+   //      return;
+   //  }   
+     if (!guestname || guestsCount < 1) {
+    alert('Please enter a name and at least 1 guest.');
+    return;
+  }
     push(rsvpRef, {
         name: guestName,
         guests: guestsCount,
