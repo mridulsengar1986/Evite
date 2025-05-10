@@ -26,7 +26,7 @@ submitBtn.addEventListener("click", async() => {
    //     alert( "Please enter your name!");
    //      return;
    //  }   
-     if (!guestname || guestsCount < 1) {
+     if (!guestName || guestsCount < 1) {
     alert('Please enter a name and at least 1 guest.');
     return;
   }
