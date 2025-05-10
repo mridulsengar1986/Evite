@@ -18,7 +18,8 @@ const submitBtn = document.getElementById("submitRSVP");
 
 
 
-submitBtn.addEventListener("click", async() => {
+submitBtn.addEventListener("click", async(e) => {
+     e.preventDefault();
     const messageBox = document.getElementById("rsvpMessage");
     const guestName = nameInput.value.trim();
     //const guestsCount = guestNumber.value;
