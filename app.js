@@ -21,7 +21,9 @@ const submitBtn = document.getElementById("submitRSVP");
 submitBtn.addEventListener("click", async() => {
     const messageBox = document.getElementById("rsvpMessage");
     const guestName = nameInput.value.trim();
-    const guestsCount = guestNumber.value;
+    //const guestsCount = guestNumber.value;
+    const guestsCount   = parseInt(guestNumber.value, 10) || 0;
+      console.log({ guestName, rawValue: guestNumber.value, guestsCount });
    // if (!guestName) {
    //     alert( "Please enter your name!");
    //      return;
